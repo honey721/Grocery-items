@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grocery Items</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</head>
+
+<body onload="foo()">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="canstockphoto81090481.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                </ul>
+                <form class="d-flex" role="search">
+
+                    <button id="total" class="btn btn-outline-danger btn-lg" type="submit">Total :</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container container1">
+        <div class="inp1">
+            <label for="">Item name</label>
+            <input type="text" id="name">
+        </div>
+        <div class="inp2">
+            <label for="">Amount</label>
+            <input type="text" id="amount">
+        </div>
+        <div class="inp3">
+            <label for="">Price</label>
+            <input type="text" id="price">
+        </div>
+    </div>
+    <div class="container container2">
+        <button type="button" id="add" class="btn btn-danger btn-lg">Add</button>
+    </div>
+    <div class="container3 container">
+        <hr>
+    </div>
+
+    <div class="index container">
+        <div class="sno">S.NO : </div>
+        <div class="name">NAME : </div>
+        <div class="amount">AMOUNT : </div>
+        <div class="price">PRICE : </div>
+    </div>
+
+    <div id="itemlist" class="items container">
+ 
+        <!-- <button type="button" class="btn btn-danger"
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            Delete
+        </button> -->
+        
+        <!-- <div id="1" class="item" onclick="delfun(id)">
+
+            <div class="s">1.</div>
+            <div class="n">rice </div>
+            <div class="a">3 kg</div>
+            <div class="p">300</div>
+
+        </div> -->
+    </div>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
+<script src="index.js"></script>
+
+</html>

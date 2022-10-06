@@ -1,0 +1,118 @@
+
+body{
+    background-color: #d7905d;
+}
+
+.inp1{
+    flex-grow: 1;
+    display: block;
+    margin: auto;
+}
+
+.inp2{
+    flex-grow: 1;
+    display: block;
+    margin: auto;
+}
+
+.inp3{
+    flex-grow: 1;
+    display: block;
+    margin: auto;
+}
+
+.container1{
+    display: flex;
+    background-color: #561313;
+    margin-top: 20px;
+    height: 70px;
+    color: white;
+}
+
+.container2{
+    display: block;
+    margin: auto;
+    padding: 0px;
+}
+
+.container > hr{
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: 20.25;
+}
+
+table , tr , th {
+    border: solid 2px black;
+}
+
+
+.index{
+    display: flex;
+    padding: 0px;
+}
+
+.sno{
+    /* flex-grow: 1; */
+    background-color: #780c0c;
+    margin-right: 3px;
+    height: 35px;
+    color: white;
+    flex-basis: 7%;
+}
+
+.name{
+    /* flex-grow: 1; */
+    background-color: #780c0c;
+    margin-right: 3px;
+    height: 35px;
+    color: white;
+    flex-basis: 31%;
+}
+.amount{
+    /* flex-grow: 1; */
+    background-color: #780c0c;
+    margin-left: 3px;
+    color: white;
+    margin-right: 3px;
+    height: 35px;
+    flex-basis: 31%;
+}
+.price{
+    /* flex-grow: 1; */
+    background-color: #780c0c;
+    color: white;
+    margin-left: 3px;
+    flex-basis: 31%;
+    height: 35px;
+}
+
+.item{
+    display: flex;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    
+    border: solid 2px black;
+    background-color: #50d917;
+}
+
+.s{
+    flex-basis: 7%;
+}
+
+.a{
+    flex-basis: 31%;
+}
+
+.n{
+    flex-basis: 31%;
+}
+
+.p{
+    flex-basis:31%;
+}
+.navbar-brand >img{
+    height: 60px;
+}
+
